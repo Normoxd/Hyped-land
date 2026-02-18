@@ -1,0 +1,11 @@
+swaybg or hyprpaper or swww
+nwg-dock
+waybar
+wofi
+polkit-gnome
+wl-clipboard
+nm-applet
+grim
+slurp
+jetbrains-mono-fonts
+Product Sans
