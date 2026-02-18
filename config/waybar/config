@@ -9,32 +9,32 @@
   "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "tray"],
 
   "clock": {
-    "format": "  {:%a %d %b  %I:%M %p}"
+    "format": "ㅤ{:%a %d %b  %I:%M %p}"
   },
 
   "pulseaudio": {
-    "format": "  {volume}%",
-    "format-muted": "󰖁 muted",
+    "format": "ㅤ{volume}%",
+    "format-muted": "󰖁ㅤmuted",
     "scroll-step": 5
   },
 
   "network": {
-    "format-wifi": "  {signalStrength}%",
-    "format-ethernet": "󰈀 wired",
-    "format-disconnected": " no net"
+    "format-wifi": "ㅤ{signalStrength}%",
+    "format-ethernet": "󰈀ㅤwired",
+    "format-disconnected": "ㅤno net"
   },
 
   "cpu": {
-    "format": "  {usage}%"
+    "format": "ㅤ{usage}%"
   },
 
   "memory": {
-    "format": "  {used:0.1f}G"
+    "format": "ㅤ{used:0.1f}G"
   },
 
   "battery": {
-    "format": "{capacity}% {icon}",
-    "format-charging": "{capacity}% 🗲",
+    "format": "{capacity}%ㅤ",
+    "format-charging": "ㅤ󰚥 {capacity}%ㅤ",
     "tooltip": true,
     "path": "/sys/class/power_supply/BAT0"
   },
