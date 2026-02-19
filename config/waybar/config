@@ -2,14 +2,14 @@
   "layer": "top",
   "position": "top",
   "height": 34,
-  "spacing": 10,
+  "spacing": 13,
 
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
-  "modules-center": ["clock"],
-  "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "tray"],
+  "modules-center": ["clock", "tray"],
+  "modules-right": ["memory", "network", "backlight", "pulseaudio", "battery"],
 
   "clock": {
-    "format": "ㅤ{:%a %d %b  %I:%M %p}"
+    "format": "{:%I:%M %p}"
   },
 
   "pulseaudio": {
@@ -20,8 +20,8 @@
 
   "network": {
     "format-wifi": "ㅤ{signalStrength}%",
-    "format-ethernet": "󰈀ㅤwired",
-    "format-disconnected": "ㅤno net"
+    "format-ethernet": "󰈀ㅤWired",
+    "format-disconnected": "ㅤNo Connection"
   },
 
   "cpu": {
@@ -33,13 +33,25 @@
   },
 
   "battery": {
-    "format": "{capacity}%ㅤ",
-    "format-charging": "ㅤ󰚥 {capacity}%ㅤ",
+    "format": "󰁹ㅤ{capacity}%",
+    "format-charging": "󰚥ㅤ{capacity}%",
     "tooltip": true,
     "path": "/sys/class/power_supply/BAT0"
   },
 
+
+  "backlight": {
+     "format": "ㅤ{percent}%",
+     "min": 25,
+     "max": 100,
+     "device": "intel_backlight",
+  },
+
   "tray": {
     "spacing": 10
-  }
+  },
+
+  "hyprland/window": {
+    "max-length": 20,
+  },
 }
