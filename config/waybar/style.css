@@ -1,6 +1,7 @@
 * {
     font-family:
-        Product Sans, monospace;
+        Product Sans,
+        monospace;
     font-size: 13px;
     border: none;
     border-radius: 0px;
@@ -32,15 +33,9 @@ window#waybar {
 #cpu,
 #memory,
 #tray,
-#battery,
-#backlight {
+#battery {
     padding: 0 12px;
     margin: 5px 0;
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.08);
-}
-
-#waybar {
-    margin-left: 10px;
-    margin-right: 10px;
 }
