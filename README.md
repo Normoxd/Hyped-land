@@ -12,11 +12,12 @@ These are the dotfiles of my hyprland setup
 - wl-clipboard
 - grim
 - slurp
+- mako
 - Better Control - https://github.com/better-ecosystem/better-control
 - Pwropts - https://github.com/Normoxd/Pwropts
 - jetbrains-mono-fonts
 - Product Sans
 
 # Installation Steps
-You can find the config folders for hyprland, kitty, waybar and wofi. Copy the contenets within these folders to the same folders in your .config folder.
+You can find the config folders for hyprland, kitty, waybar, mako and wofi. Copy the contenets within these folders to the same folders in your .config folder.
 Make sure to have the necessary dependencies installed.
